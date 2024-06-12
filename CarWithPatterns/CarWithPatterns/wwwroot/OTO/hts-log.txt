@@ -1,0 +1,23 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 11 Jun 2024 16:49:31 at https://simgeotokiralama.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "tr, en, *" https://simgeotokiralama.com/ -O1 "C:\Benim Web Sitem\OTo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:51:04	Warning: 	Link https://simgeotokiralama.com/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+16:51:08	Warning: 	Moved Permanently for https://simgeotokiralama.com/?p=67
+16:51:08	Warning: 	File has moved from https://simgeotokiralama.com/?p=67 to https://simgeotokiralama.com/hakkimizda/
+16:51:08	Warning: 	Moved Permanently for https://simgeotokiralama.com/?p=397
+16:51:08	Warning: 	File has moved from https://simgeotokiralama.com/?p=397 to https://simgeotokiralama.com/filomuz/
+16:51:08	Warning: 	Moved Permanently for https://simgeotokiralama.com/?p=59
+16:51:08	Warning: 	File has moved from https://simgeotokiralama.com/?p=59 to https://simgeotokiralama.com/musteri-yorumlari/
+16:51:08	Warning: 	Moved Permanently for https://simgeotokiralama.com/?p=499
+16:51:08	Warning: 	File has moved from https://simgeotokiralama.com/?p=499 to https://simgeotokiralama.com/sikca-sorulan-sorular/
+16:51:08	Warning: 	Moved Permanently for https://simgeotokiralama.com/?p=65
+16:51:08	Warning: 	File has moved from https://simgeotokiralama.com/?p=65 to https://simgeotokiralama.com/iletisim/
+16:51:08	Error: 	"Not Found" (404) at link https://simgeotokiralama.com/wp-content/plugins/bosa-elementor-for-woocommerce/assets/css/owl.video.play.png (from https://simgeotokiralama.com/wp-content/plugins/bosa-elementor-for-woocommerce/assets/css/owl-carousel-min.css?ver=6.5.4)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 37 seconds : 259 links scanned, 251 files written (12310250 bytes overall) [6796691 bytes received at 70068 bytes/sec], 7467266 bytes transferred using HTTP compression in 143 files, ratio 21%, 18.5 requests per connection
+(1 errors, 11 warnings, 0 messages)

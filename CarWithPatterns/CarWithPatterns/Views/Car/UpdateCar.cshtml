@@ -1,0 +1,66 @@
+﻿@model CarWithPatterns.CQRS.Results.GetCarUpdateQueryResult
+@{
+    ViewData["Title"] = "UpdateCar";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card shadow-lg">
+            <div class="card-header bg-primary text-white">
+                <h3 class="mb-0">Araba Güncelle</h3>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <input type="hidden" asp-for="CarID" />
+
+                    <div class="mb-3">
+                        <label for="CarBrand" class="form-label">Araç Marka</label>
+                        <input type="text" asp-for="CarBrand" class="form-control" id="CarBrand" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="CarModel" class="form-label">Araç Model</label>
+                        <input type="text" asp-for="CarModel" class="form-control" id="CarModel" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="MotorPower" class="form-label">Araç Motor Gücü</label>
+                        <input type="text" asp-for="MotorPower" class="form-control" id="MotorPower" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="ImageUrl" class="form-label">Araç Resim Url</label>
+                        <input type="text" asp-for="ImageUrl" class="form-control" id="ImageUrl" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Price" class="form-label">Araç Günlük Fiyat</label>
+                        <input type="text" asp-for="Price" class="form-control" id="Price" />
+                    </div>
+
+                    <div class="mb-3 form-check form-switch">
+                        <input class="form-check-input" type="checkbox" asp-for="IsAvailable" id="IsAvailable">
+                        <label class="form-check-label" for="IsAvailable">Müsaitlik Durumu</label>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-success btn-block">Aracı Güncelle</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .form-check-input:checked {
+        background-color: #198754;
+        border-color: #198754;
+    }
+
+    .form-check-input:focus {
+        border-color: #198754;
+        box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+    }
+</style>
